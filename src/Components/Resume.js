@@ -5,7 +5,7 @@ class Resume extends Component {
   getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
-    for (var i = 0; i < 6; i++) {
+    for (var i = 0; i < 6; i++) {   // 랜덤으로 색깔을 정해주는 코드
       color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
